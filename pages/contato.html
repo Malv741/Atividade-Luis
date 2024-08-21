@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quem Somos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jersey+25&family=New+Amsterdam&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Jersey+10&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/pages/index.css">
+  <link rel="stylesheet" href="../assets/css/pages/contato.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary cabecalho">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">BitZone</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contato.html">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./equipe.html">Equipe</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+  </header>
+  <main>
+    <section class="secaoMensagem" id="secaoMensagem">
+      <h2 class="tituloMensagem">Enfrentando problemas? Nos envie uma mensagem!!</h2>
+      <div class="">
+        <div class="camposInputs">
+          <div class="input-control">
+            <label for="nome">Insira seu nome</label>
+            <input id="nome" name="nome" type="text" class="form-control" placeholder="Nome...">
+          </div>
+          <div class="input-control">
+            <label for="email">Insira seu e-mail</label>
+            <input id="email" name="email" type="email" required placeholder="example@gmail.com" class="form-control">
+          </div>
+          <div class="input-control">
+            <label for="codigo">Insira o código do produto (se tiver)</label>
+            <input id="codigo" name="codigo" type="number" placeholder="#XXXXXXXX" class="form-control">
+          </div>
+        </div>
+        <div class="">
+          <label for="mensagem">Escreva a sua mensagem:</label>
+          <div class="input-control">
+            <textarea id="mensagem" name="mensagem" id="" cols="30" rows="10" placeholder="Mensagem..." class="campoMensagem"></textarea>
+          </div>
+        </div>
+        <button class="btn btn-success botaoMensagem " onclick="mostrarModal()">Enviar Mensagem</button>
+      </div>
+    </section>
+  </main>
+
+
+  <footer id="footer" class="footer">
+    <p>BitZone - 2024 - Todos os direitos reservados</p>
+  </footer>
+</body>
+<script src="../assets/js/contato.js"></script>
+</html>

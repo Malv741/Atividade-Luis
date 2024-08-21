@@ -1,0 +1,136 @@
+main {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.cabecalho {
+    background: linear-gradient(145deg, rgba(235,149,62,1) 45%, rgba(58,112,204,1) 45%) !important;
+}
+
+.navbar-brand {
+    font-family: "Jersey 10";
+    font-size: 3rem;
+    color: white;
+}
+
+.nav-link{
+    padding-top: 1rem;
+    font-family: "Anek Devanagari";
+    color: white;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    background-color: rgb(143, 143, 255);
+    border-radius: 5px;
+}
+
+.apresentacao {
+    background-image: url("../../images/fundo.png");
+    background-size:cover;
+    background-position: center;
+    height: 35rem;
+    margin-left: 0px;
+    text-align: center;
+    padding-top: 12rem;
+    color: white;
+    font-family: "Jersey 10";
+
+}
+
+.textoTitulo {
+    font-size: 5rem;
+}
+
+.destaque {
+    color: rgb(108, 230, 108);
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.secaoProdutos {
+    width: 100%;
+    border-top: 2px solid black;
+    padding-top: 2rem;
+}
+
+.cardOfertas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.textoOfertas {
+    font-family: "Aneke Devanagari", sans-serif;
+    /* color: rgb(245, 160, 48); */
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+
+.cards {
+    width: 15rem;
+    height: 27rem;
+    margin-left: 0.5rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    font-family: 'Nunito Sans';
+    border: 0.5px solid gray;
+    border-radius: 5px;
+    padding-top: 1rem;
+}
+
+.cards:hover {
+    background-color: rgba(145, 169, 210, 0.455);
+}
+
+.tituloProduto {
+    margin-bottom: 0px;
+}
+
+.precoAntigo {
+    text-decoration:line-through;
+    color: rgb(241, 179, 63);
+    margin-bottom: 0px;
+}
+
+.preco {
+    color: orange;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 0px;
+}
+
+.metodo {
+    color: gray;
+    font-size: 0.8rem;
+    display: flex;
+}
+
+.botaoComprar {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+}
+
+.footer {
+    background: linear-gradient(145deg, rgba(235,149,62,1) 45%, rgba(58,112,204,1) 45%) !important;
+    color: white;
+    display: flex;
+    height: 4rem;
+    align-items: center;
+    justify-content: center ;
+}

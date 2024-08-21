@@ -1,0 +1,57 @@
+.imagemProduto {
+    width: 10rem;
+    height: 10rem;
+}
+
+.campoInformacoes, .secaoPagamento {
+    width: 75%;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 2rem;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    border-radius: 15px;
+}
+
+.campoValor {
+    margin-bottom: 1rem;
+}
+
+.confirmarEndereco, .pagamento {
+    margin-top: 2rem;
+}
+
+.campoValores, .campoCartao, #pagamentoAVista, #pagamentoAPrazo, .secaoPagamento, .pagamento {
+    display: none;
+}
+
+.modalCompra{
+    background-color: rgb(255, 197, 89);
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10rem;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    z-index: 2;
+    display: none;
+}
+
+.imagemSucesso {
+    border: 2px solid black;
+    border-radius: 100px;
+}
+
+.botaoAceitar {
+    border: 2px solid black;
+    margin-top: 1rem;
+    border-radius: 5px;
+    
+}

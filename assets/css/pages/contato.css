@@ -1,0 +1,58 @@
+.secaoMensagem {
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+.tituloMensagem {
+    margin-top: 2rem;
+}
+
+.campoMensagem {
+    border-radius: 10px;
+    width: 20rem;
+}
+
+.botaoMensagem {
+    margin: 2rem;
+    margin-left: 0;
+}
+
+.modalCompra{
+    background-color: rgb(255, 197, 89);
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    z-index: 2;
+    display: none;
+}
+
+.imagemSucesso {
+    border: 2px solid black;
+    border-radius: 100px;
+}
+
+.botaoAceitar {
+    border: 2px solid black;
+    margin-top: 1rem;
+    border-radius: 5px;
+
+}
+
+@media (max-width:600px){
+    .secaoMensagem {
+        margin: 0;
+    }
+
+    .botaoMensagem {
+        margin-left: 2rem;
+    }
+}
